@@ -1,0 +1,12 @@
+<?qbxml version="8.0"?>
+<QBXML>
+  <QBXMLMsgsRq onError="stopOnError">
+    <InvoiceQueryRq requestID="4">
+      <TxnDateRangeFilter>
+        <FromTxnDate>2023-01-01</FromTxnDate>
+        <ToTxnDate>2023-12-31</ToTxnDate>
+      </TxnDateRangeFilter>
+      <IncludeLineItems>true</IncludeLineItems>
+    </InvoiceQueryRq>
+  </QBXMLMsgsRq>
+</QBXML>
